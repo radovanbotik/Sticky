@@ -38,6 +38,9 @@ h5,
 h6 {
   padding-bottom: 2ex;
 }
+html {
+  //   background-color: color(color-accent-secondary);
+}
 body {
   background-color: color(color-bg-main);
   color: color(color-font-main);
@@ -59,9 +62,7 @@ body {
     align-items: baseline;
     padding: 2ex;
     border-bottom: 1px solid color(color-accent-secondary);
-    // transition: all 500ms ease-in;
     h5 {
-      //   align-self: center;
       text-transform: uppercase;
     }
     ul {
@@ -78,6 +79,8 @@ body {
   }
   section:nth-of-type(1) {
     // top: 5em;
+    max-width: 1400px;
+    margin: 0 auto;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1.5fr 2.25fr 2.25fr 0.5fr;

@@ -53,6 +53,8 @@ body header a {
   text-decoration: none;
 }
 body section:nth-of-type(1) {
+  max-width: 1400px;
+  margin: 0 auto;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1.5fr 2.25fr 2.25fr 0.5fr;
