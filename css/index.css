@@ -25,8 +25,8 @@ body {
   position: relative;
 }
 body header {
-  position: -webkit-sticky;
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
   background-color: #eed1e2;
   background-color: #421831;
@@ -38,6 +38,7 @@ body header {
   align-items: baseline;
   padding: 2ex;
   border-bottom: 1px solid #fff8ff;
+  transition: all 500ms ease-in;
 }
 body header h5 {
   text-transform: uppercase;

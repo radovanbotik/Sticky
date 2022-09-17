@@ -49,8 +49,9 @@ body {
 
   header {
     // position: absolute;
-    position: sticky;
-    // position: fixed;
+    // position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
     background-color: color(color-bg-main);
     background-color: color(color-bg-darker);
@@ -62,6 +63,7 @@ body {
     align-items: baseline;
     padding: 2ex;
     border-bottom: 1px solid color(color-accent-secondary);
+    transition: all 500ms ease-in;
     h5 {
       text-transform: uppercase;
     }
